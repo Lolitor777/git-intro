@@ -2,6 +2,10 @@ function presionar() {
     alert('presionaste este boton')
 }
 
-function sumar(num1, num2) {
-    console.log(num1 + num2);
+function sumar() {
+    let numUno = document.getElementById("numUno").value;
+    let numDos = document.getElementById("numDos").value;
+    let resultado = parseInt(numUno) + parseInt(numDos);
+    document.getElementById("resultado").innerText = resultado;
+    console.log(resultado);
 }
