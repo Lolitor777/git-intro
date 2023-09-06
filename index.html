@@ -12,16 +12,27 @@
 
     <div class="dvSumar">
         <h1>Suma</h1>
-        <input id="numUno" type="number" placeholder="Numero 1">
-        <input id="numDos" type="number" placeholder="Numero 2">
+        <input id="numSuma1" type="number" placeholder="Numero 1">
+        <input id="numSuma2" type="number" placeholder="Numero 2">
         <br>
         <br>
-        <label for=""><strong>Resultado:</strong> <span id="resultado"></span></label>
+        <label for=""><strong>Resultado:</strong> <span id="resultadoSuma"></span></label>
         <br>
         <button onclick="sumar()">Sumar</button>
     </div>
     
 
+    <div class="dvResta">
+        <h1>Resta</h1>
+        <input type="number" id="numResta1">
+        <input type="number" id="numResta2">
+        <br>
+        <br>
+        <label for=""><strong>Resultado: </strong><span id="resultadoResta"></span></label>
+        <br>
+        <button onclick="resta()">Restar</button>
+    </div>
+        
     <script src="/js/main.js"></script>
 </body>
 </html>
